@@ -1,0 +1,4 @@
+~          val    X    Y    Z
+Xerxes       0    ~    ~    ~
+York        -1    ~    ~    ~
+Zardoz       1    ~    ~    ~

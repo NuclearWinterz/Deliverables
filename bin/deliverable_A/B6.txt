@@ -1,0 +1,7 @@
+~          val   A   B   C   D   E   F
+Alfa         4   ~   ~   ~   ~   ~   ~
+Bravo        6   ~   ~   ~   ~   ~   ~
+Charlie     -3   ~   ~   ~   ~   ~   ~
+Delta       -6   ~   ~   ~   ~   ~   ~
+Echo         0   ~   ~   ~   ~   ~   ~
+Foxtrot     55   ~   ~   ~   ~   ~   ~

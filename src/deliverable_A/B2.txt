@@ -1,0 +1,3 @@
+~          val    q    r
+Queen        3    ~    ~
+Royal        2    ~    ~

@@ -1,0 +1,8 @@
+~               Val  Chi  Dal  Den  Nas  StL  StP  Win
+Chicago           A    ~  967 1004  473  296  398  863
+Dallas            B  967    ~  794  663  631  944 1297
+Denver            C 1004  794    ~ 1158  850  924 1097
+Nashville         D  473  663 1158    ~  309  875 1338
+StLouis           E  296  631  850  309    ~  557 1013
+StPaul            F  398  944  924  875  557    ~  458
+Winnipeg          G  863 1297 1097 1338 1013  458    ~
