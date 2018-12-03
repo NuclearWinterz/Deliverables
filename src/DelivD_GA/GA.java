@@ -51,12 +51,12 @@ public class GA {
         int endPos = (int) (Math.random() * parent1.tourSize());
 
         // Loop and add the sub tour from parent1 to our child
-        for (int i = 1; i < child.tourSize(); i++) {
+        for (int i = 0; i < child.tourSize(); i++) {
             // If our start position is less than the end position
             if (startPos < endPos && i > startPos && i < endPos) {
                 child.setCity(i, parent1.getCity(i));
             } // If our start position is larger
-            else if (startPos > endPos) {
+            else if (startPos > endPos && i != 0) {
                 if (!(i < startPos && i > endPos)) {
                     child.setCity(i, parent1.getCity(i));
                 }
@@ -93,9 +93,11 @@ public class GA {
                 Node city1 = tour.getCity(tourPos1);
                 Node city2 = tour.getCity(tourPos2);
 
+                if(tourPos2 != 0) {
                 // Swap them around
                 tour.setCity(tourPos2, city1);
                 tour.setCity(tourPos1, city2);
+                }
             }
         }
     }
